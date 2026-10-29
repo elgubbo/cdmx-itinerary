@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Mexico City Itinerary • Nov 1–9, 2026</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .serif {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+      body {
+        background: white !important;
+        color: black !important;
+        padding-bottom: 0 !important;
+      }
+      .tab-content {
+        display: block !important;
+        margin-bottom: 2rem;
+      }
+    }
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-800 antialiased min-h-screen pb-20">
+
+  <!-- Header Banner -->
+  <header class="bg-stone-900 text-stone-100 pt-6 pb-5 px-5 border-b border-stone-800 sticky top-0 z-30 shadow-md no-print">
+    <div class="max-w-xl mx-auto flex items-center justify-between">
+      <div>
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 text-[10px] tracking-wider uppercase font-semibold text-amber-400 bg-amber-950/70 rounded-full border border-amber-800/60 mb-1">
+          <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
+          Nov 1 – 9, 2026 • 8 Nights
+        </span>
+        <h1 class="serif text-2xl font-bold text-stone-50 tracking-tight">Mexico City Trip</h1>
+        <p class="text-stone-400 text-xs mt-0.5">Base: Pino 82, Coyoacán • Flexible Evenings</p>
+      </div>
+      <button onclick="window.print()" class="px-3 py-1.5 text-xs font-medium rounded-full bg-stone-800 hover:bg-stone-700 text-stone-200 border border-stone-700 transition flex items-center gap-1.5 shadow-sm">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+        Print / PDF
+      </button>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <div class="sticky top-[89px] z-20 bg-stone-50/95 backdrop-blur border-b border-stone-200 shadow-sm py-2 px-4 no-print">
+    <div class="max-w-xl mx-auto flex items-center justify-center space-x-1 p-1 bg-stone-200/80 rounded-xl text-xs font-semibold">
+      <button onclick="setView('timeline')" id="btn-timeline" class="flex-1 py-2 text-center rounded-lg transition-all bg-white text-stone-900 shadow-sm font-semibold">
+        Daily Plan
+      </button>
+      <button onclick="setView('table')" id="btn-table" class="flex-1 py-2 text-center rounded-lg transition-all text-stone-600 hover:text-stone-900 font-normal">
+        Table View
+      </button>
+      <button onclick="setView('shopping')" id="btn-shopping" class="flex-1 py-2 text-center rounded-lg transition-all text-stone-600 hover:text-stone-900 font-normal">
+        Dress Shops
+      </button>
+      <button onclick="setView('dining')" id="btn-dining" class="flex-1 py-2 text-center rounded-lg transition-all text-stone-600 hover:text-stone-900 font-normal">
+        Food Pool
+      </button>
+    </div>
+  </div>
+
+  <main class="max-w-xl mx-auto px-4 pt-4 space-y-4">
+
+    <!-- VIEW 1: DAILY TIMELINE -->
+    <section id="view-timeline" class="space-y-3.5 tab-content">
+
+      <!-- Sun Nov 1 -->
+      <article class="bg-white rounded-2xl p-4 border border-stone-200 shadow-sm">
+        <div class="flex items-center justify-between border-b border-stone-100 pb-2 mb-2.5">
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-amber-700">Day 1</span>
+            <h2 class="font-bold text-stone-900 text-sm">Sunday, Nov 1 • Arrival</h2>
+          </div>
+          <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-stone-100 text-stone-700 font-medium">Arrival Night</span>
+        </div>
+        <div class="space-y-2 text-xs leading-relaxed">
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">19:40</span>
+            <p class="text-stone-700"><strong class="text-stone-900">Land at MEX Airport.</strong> Direct transfer to loft in Coyoacán (Pino 82).</p>
+          </div>
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Evening</span>
+            <p class="text-stone-700"><strong class="text-stone-900">Check-in & Late Comfort Bite:</strong> Settle in, then take a quiet evening walk to Plaza Hidalgo or Jardín Centenario for late casual street tacos and churros.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Mon Nov 2 -->
+      <article class="bg-white rounded-2xl p-4 border border-rose-200/70 shadow-sm bg-gradient-to-br from-white to-rose-50/20">
+        <div class="flex items-center justify-between border-b border-rose-100 pb-2 mb-2.5">
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-rose-700">Day 2</span>
+            <h2 class="font-bold text-stone-900 text-sm">Monday, Nov 2 • Día de Muertos in Coyoacán</h2>
+          </div>
+          <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-rose-100 text-rose-800 font-semibold">Holiday Altars</span>
+        </div>
+        <div class="space-y-2 text-xs leading-relaxed">
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Morning</span>
+            <p class="text-stone-700"><strong class="text-stone-900">Morning Coffee Walk:</strong> Grab coffee and warm pan dulce at Café El Jarocho. Stroll tree-shaded paths through Viveros de Coyoacán and tranquil Plaza de la Conchita (no ticket queues or museum rush).</p>
+          </div>
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Afternoon</span>
+            <p class="text-stone-700"><strong class="text-stone-900">Mercado de Coyoacán:</strong> Taste tostadas and seasonal snacks while admiring vibrant marigold ofrendas (altars).</p>
+          </div>
+          <div class="flex gap-2 pt-1 border-t border-rose-100/60">
+            <span class="font-mono text-rose-600 font-bold w-16 shrink-0">Evening</span>
+            <p class="text-stone-900 font-medium bg-amber-50/70 p-2.5 rounded-xl border border-amber-200/60 w-full">
+              ✨ <strong class="text-amber-900">Open for Family & Friends:</strong> Stroll the illuminated plazas together to see peak holiday atmosphere and public ofrendas in Coyoacán or Centro.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Tue Nov 3 -->
+      <article class="bg-white rounded-2xl p-4 border border-indigo-200/70 shadow-sm">
+        <div class="flex items-center justify-between border-b border-indigo-100 pb-2 mb-2.5">
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-indigo-700">Day 3</span>
+            <h2 class="font-bold text-stone-900 text-sm">Tuesday, Nov 3 • Dress Shopping Day</h2>
+          </div>
+          <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-semibold">Shopping Focus</span>
+        </div>
+        <div class="space-y-2 text-xs leading-relaxed">
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Morning</span>
+            <p class="text-stone-700"><strong class="text-stone-900">Designer Boutiques:</strong> Head to <strong class="text-stone-900">Carla Fernández</strong> (Juárez) for handcrafted modern textiles, then <strong class="text-stone-900">Yakampot</strong> (San Miguel Chapultepec) for elegant, breathable occasion dresses.</p>
+          </div>
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Afternoon</span>
+            <p class="text-stone-700"><strong class="text-stone-900">Department Store Browse:</strong> <strong class="text-stone-900">El Palacio de Hierro Polanco</strong> (broadest variety under one roof for eveningwear, cocktail dresses, and accessories).</p>
+          </div>
+          <div class="flex gap-2 pt-1 border-t border-indigo-100/60">
+            <span class="font-mono text-stone-500 w-16 shrink-0">Evening</span>
+            <p class="text-stone-800 font-medium bg-stone-50 p-2.5 rounded-xl border border-stone-200 w-full">
+              ✨ <strong class="text-stone-900">Open Evening:</strong> Pick spontaneously from the Food Pool (e.g. Antolina or El Parnita) or have dinner with friends.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Wed Nov 4 -->
+      <article class="bg-white rounded-2xl p-4 border border-stone-200 shadow-sm">
+        <div class="flex items-center justify-between border-b border-stone-100 pb-2 mb-2.5">
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-amber-700">Day 4</span>
+            <h2 class="font-bold text-stone-900 text-sm">Wednesday, Nov 4 • Centro Histórico</h2>
+          </div>
+          <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-stone-100 text-stone-700 font-medium">History & Courtyards</span>
+        </div>
+        <div class="space-y-2 text-xs leading-relaxed">
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Morning</span>
+            <p class="text-stone-700"><strong class="text-stone-900">Historic Core:</strong> Zócalo, Metropolitan Cathedral, Templo Mayor ruins, and the golden interior of Palacio Postal.</p>
+          </div>
+          <div class="flex gap-2">
+            <span class="font-mono text-amber-700 font-bold w-16 shrink-0">Lunch</span>
+            <p class="text-stone-800 bg-stone-50 p-2.5 rounded-xl border border-stone-200 w-full">
+              🍽️ Relaxed lunch option: Heritage classics at <strong class="text-stone-900">El Cardenal</strong> or courtyard dining under the trees at <strong class="text-stone-900">Azul Histórico</strong>.
+            </p>
+          </div>
+          <div class="flex gap-2 pt-1">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Evening</span>
+            <p class="text-amber-800 font-semibold">✨ Open evening for family and friends.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Thu Nov 5 -->
+      <article class="card bg-white rounded-2xl p-4 border border-stone-200 shadow-sm">
+        <div class="flex items-center justify-between border-b border-stone-100 pb-2 mb-2.5">
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-amber-700">Day 5</span>
+            <h2 class="font-bold text-stone-900 text-sm">Thursday, Nov 5 • Chapultepec & Condesa</h2>
+          </div>
+          <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-stone-100 text-stone-700 font-medium">Culture & Park</span>
+        </div>
+        <div class="space-y-2 text-xs leading-relaxed">
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Morning</span>
+            <p class="text-stone-700"><strong class="text-stone-900">Anthropology Museum (MNA):</strong> World-renowned collection set inside Bosque de Chapultepec (2–3 hours at an easy pace).</p>
+          </div>
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Afternoon</span>
+            <p class="text-stone-700"><strong class="text-stone-900">Condesa Wander:</strong> Walk the shaded perimeter of Parque México and Avenida Ámsterdam for coffee or ice cream.</p>
+          </div>
+          <div class="flex gap-2 pt-1">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Evening</span>
+            <p class="text-amber-800 font-semibold">✨ Open evening: Choose casually from Roma/Condesa favorites in the Food Pool.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Fri Nov 6 -->
+      <article class="bg-white rounded-2xl p-4 border border-red-200 shadow-sm bg-gradient-to-br from-white to-red-50/20">
+        <div class="flex items-center justify-between border-b border-red-100 pb-2 mb-2.5">
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-red-700">Day 6</span>
+            <h2 class="font-bold text-stone-900 text-sm">Friday, Nov 6 • Excursion & Lucha Libre</h2>
+          </div>
+          <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-red-100 text-red-800 font-semibold">Fight Night 🥊</span>
+        </div>
+        <div class="space-y-2 text-xs leading-relaxed">
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Morning</span>
+            <p class="text-stone-700"><strong class="text-stone-900">Flexible Excursion:</strong> Early morning trip to <strong class="text-stone-900">Teotihuacán Pyramids</strong> (leave by 07:30 to beat crowds) <em>OR</em> an early food run at <strong class="text-stone-900">Central de Abasto</strong>.</p>
+          </div>
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Afternoon</span>
+            <p class="text-stone-700">Rest, nap, and recharge back at the Coyoacán base.</p>
+          </div>
+          <div class="flex gap-2 pt-1 border-t border-red-100/60">
+            <span class="font-mono text-red-600 font-bold w-16 shrink-0">20:30</span>
+            <p class="text-stone-900 font-medium bg-red-50 p-2.5 rounded-xl border border-red-200/70 w-full">
+              🎟️ <strong class="text-red-950">Lucha Libre: Viernes Espectacular at Arena México:</strong> CMLL's premier weekly championship card with high-flying spectacle and unforgettable atmosphere!
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Sat Nov 7 -->
+      <article class="bg-white rounded-2xl p-4 border border-stone-200 shadow-sm">
+        <div class="flex items-center justify-between border-b border-stone-100 pb-2 mb-2.5">
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-amber-700">Day 7</span>
+            <h2 class="font-bold text-stone-900 text-sm">Saturday, Nov 7 • San Ángel Arts</h2>
+          </div>
+          <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-stone-100 text-stone-700 font-medium">Boutique & Art Market</span>
+        </div>
+        <div class="space-y-2 text-xs leading-relaxed">
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Daytime</span>
+            <p class="text-stone-700"><strong class="text-stone-900">Bazar El Sábado:</strong> Iconic art market in San Ángel with silver jewelry, ceramics, and textiles right next to Coyoacán. Stroll Plaza San Jacinto.</p>
+          </div>
+          <div class="flex gap-2 pt-1 border-t border-stone-100">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Evening</span>
+            <p class="text-amber-800 font-semibold">✨ Open evening with family & friends in southern CDMX (easy walk/ride back to base).</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Sun Nov 8 -->
+      <article class="bg-white rounded-2xl p-4 border border-stone-200 shadow-sm">
+        <div class="flex items-center justify-between border-b border-stone-100 pb-2 mb-2.5">
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-amber-700">Day 8</span>
+            <h2 class="font-bold text-stone-900 text-sm">Sunday, Nov 8 • Roma Stroll & Farewells</h2>
+          </div>
+          <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-stone-100 text-stone-700 font-medium">Neighborhood Day</span>
+        </div>
+        <div class="space-y-2 text-xs leading-relaxed">
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Morning</span>
+            <p class="text-stone-700"><strong class="text-stone-900">Roma & Condesa Stroll:</strong> Independent boutiques, bookstores, and sidewalk cafés around Parque México.</p>
+          </div>
+          <div class="flex gap-2">
+            <span class="font-mono text-amber-700 font-bold w-16 shrink-0">Lunch</span>
+            <p class="text-stone-800 bg-stone-50 p-2 rounded-lg border border-stone-200 w-full">
+              🐟 Long seafood lunch at <strong class="text-stone-900">Contramar</strong>.
+            </p>
+          </div>
+          <div class="flex gap-2 pt-1">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Evening</span>
+            <p class="text-stone-800 font-semibold">✨ Farewell drinks and toast to a memorable week.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Mon Nov 9 -->
+      <article class="bg-white rounded-2xl p-4 border border-stone-200 shadow-sm">
+        <div class="flex items-center justify-between border-b border-stone-100 pb-2 mb-2.5">
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-stone-500">Day 9</span>
+            <h2 class="font-bold text-stone-900 text-sm">Monday, Nov 9 • Departure</h2>
+          </div>
+          <span class="text-[11px] px-2.5 py-0.5 rounded-full bg-stone-100 text-stone-600 font-medium">Check-out</span>
+        </div>
+        <div class="space-y-2 text-xs leading-relaxed">
+          <div class="flex gap-2">
+            <span class="font-mono text-stone-400 w-16 shrink-0">Morning</span>
+            <p class="text-stone-700">Final morning coffee & bakery run in Coyoacán. Pack up, check out of loft by 12:00, and transfer to MEX Airport.</p>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- VIEW 2: TABLE VIEW -->
+    <section id="view-table" class="hidden tab-content">
+      <div class="bg-white rounded-2xl border border-stone-200 shadow-sm overflow-hidden">
+        <div class="p-3 bg-stone-100/80 border-b border-stone-200 flex justify-between items-center">
+          <span class="text-xs font-bold text-stone-800 uppercase tracking-wider">At-a-Glance Trip Table</span>
+          <button onclick="window.print()" class="text-[11px] text-amber-800 font-semibold hover:underline">
+            🖨️ Print PDF
+          </button>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs">
+            <thead class="bg-stone-50 text-stone-600 border-b border-stone-200">
+              <tr>
+                <th class="p-3 font-semibold whitespace-nowrap">Date</th>
+                <th class="p-3 font-semibold min-w-[130px]">Daytime Focus</th>
+                <th class="p-3 font-semibold min-w-[140px] text-amber-900">Evening / Dinner</th>
+                <th class="p-3 font-semibold min-w-[110px]">Logistics</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-stone-100">
+              <tr class="hover:bg-stone-50/50">
+                <td class="p-3 font-semibold align-top whitespace-nowrap">Sun, Nov 1</td>
+                <td class="p-3 text-stone-600 align-top">Land at MEX (19:40), transfer to Pino 82</td>
+                <td class="p-3 align-top font-medium text-stone-800">Check in & casual neighborhood tacos</td>
+                <td class="p-3 text-stone-500 align-top">Low-key arrival</td>
+              </tr>
+              <tr class="hover:bg-stone-50/50">
+                <td class="p-3 font-semibold align-top whitespace-nowrap text-rose-700">Mon, Nov 2</td>
+                <td class="p-3 align-top">Café El Jarocho, Viveros & Mercado ofrendas</td>
+                <td class="p-3 align-top font-semibold text-amber-800">✨ Open for Family / Friends (Altars)</td>
+                <td class="p-3 text-stone-500 align-top">Día de Muertos</td>
+              </tr>
+              <tr class="hover:bg-stone-50/50">
+                <td class="p-3 font-semibold align-top whitespace-nowrap text-indigo-700">Tue, Nov 3</td>
+                <td class="p-3 align-top font-medium text-stone-900">Dress Shopping: Carla Fernández, Yakampot & Palacio</td>
+                <td class="p-3 align-top font-medium text-stone-800">✨ Open Evening (Food Pool)</td>
+                <td class="p-3 text-stone-500 align-top">Juárez / Polanco</td>
+              </tr>
+              <tr class="hover:bg-stone-50/50">
+                <td class="p-3 font-semibold align-top whitespace-nowrap">Wed, Nov 4</td>
+                <td class="p-3 align-top">Centro Histórico (Lunch: El Cardenal or Azul)</td>
+                <td class="p-3 align-top font-semibold text-amber-800">✨ Open for Family / Friends</td>
+                <td class="p-3 text-stone-500 align-top">Historic core</td>
+              </tr>
+              <tr class="hover:bg-stone-50/50">
+                <td class="p-3 font-semibold align-top whitespace-nowrap">Thu, Nov 5</td>
+                <td class="p-3 align-top">Anthropology Museum (MNA) & Condesa park walk</td>
+                <td class="p-3 align-top font-medium text-stone-800">✨ Open Evening (Food Pool)</td>
+                <td class="p-3 text-stone-500 align-top">2–3h museum</td>
+              </tr>
+              <tr class="hover:bg-stone-50/50">
+                <td class="p-3 font-semibold align-top whitespace-nowrap text-red-700">Fri, Nov 6</td>
+                <td class="p-3 align-top">Teotihuacán Pyramids OR Central de Abasto</td>
+                <td class="p-3 align-top font-bold text-red-700">🥊 Lucha Libre: Arena México (20:30)</td>
+                <td class="p-3 text-stone-500 align-top">Viernes Espectacular</td>
+              </tr>
+              <tr class="hover:bg-stone-50/50">
+                <td class="p-3 font-semibold align-top whitespace-nowrap">Sat, Nov 7</td>
+                <td class="p-3 align-top">Bazar El Sábado & Plaza San Jacinto</td>
+                <td class="p-3 align-top font-semibold text-amber-800">✨ Open for Family / Friends</td>
+                <td class="p-3 text-stone-500 align-top">San Ángel</td>
+              </tr>
+              <tr class="hover:bg-stone-50/50">
+                <td class="p-3 font-semibold align-top whitespace-nowrap">Sun, Nov 8</td>
+                <td class="p-3 align-top">Roma & Condesa walking, lunch at Contramar</td>
+                <td class="p-3 align-top font-medium text-stone-800">Farewell drinks & group dinner</td>
+                <td class="p-3 text-stone-500 align-top">Relaxed tempo</td>
+              </tr>
+              <tr class="hover:bg-stone-50/50">
+                <td class="p-3 font-semibold align-top whitespace-nowrap">Mon, Nov 9</td>
+                <td class="p-3 align-top">Bakery stop, packing & checkout (by 12:00)</td>
+                <td class="p-3 text-stone-400 align-top">Departure to airport</td>
+                <td class="p-3 text-stone-500 align-top">Transfer to MEX</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: DRESS SHOPS -->
+    <section id="view-shopping" class="hidden tab-content space-y-3.5">
+      <div class="bg-indigo-50 border border-indigo-200 rounded-2xl p-4 text-xs">
+        <h2 class="font-bold text-indigo-900 text-sm">Dedicated Dress Shopping Day (Tuesday, Nov 3)</h2>
+        <p class="text-indigo-800 mt-1">A curated route balancing artisanal Mexican couture with luxury multi-brand department store selection.</p>
+      </div>
+
+      <!-- Carla Fernandez -->
+      <div class="bg-white p-4 rounded-2xl border border-stone-200 shadow-sm border-l-4 border-l-indigo-600">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="font-bold text-stone-900 text-sm">Carla Fernández</h3>
+            <p class="text-xs text-stone-500">Calle Marsella 72, Colonia Juárez</p>
+          </div>
+          <span class="text-[10px] bg-indigo-100 text-indigo-800 px-2 py-0.5 rounded font-semibold">Artisan Couture</span>
+        </div>
+        <p class="text-xs text-stone-600 mt-2">Celebrated Mexican fashion house collaborating with indigenous weavers and master artisans. Perfect for modern, structured dresses, unique textiles, and statement silhouettes.</p>
+        <div class="mt-3 pt-2.5 border-t border-stone-100 flex items-center justify-between text-xs">
+          <span class="text-stone-500">Area: Juárez / Roma</span>
+          <a href="https://maps.google.com/?q=Carla+Fernandez+Marsella+72+CDMX" target="_blank" class="text-indigo-600 font-semibold hover:underline">Open Map &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Yakampot -->
+      <div class="bg-white p-4 rounded-2xl border border-stone-200 shadow-sm border-l-4 border-l-indigo-600">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="font-bold text-stone-900 text-sm">Yakampot</h3>
+            <p class="text-xs text-stone-500">Salvatierra 45, San Miguel Chapultepec</p>
+          </div>
+          <span class="text-[10px] bg-indigo-100 text-indigo-800 px-2 py-0.5 rounded font-semibold">Boutique</span>
+        </div>
+        <p class="text-xs text-stone-600 mt-2">Understated, elegant, and fluid occasion dresses crafted in natural fibers. Celebrates Mexican textile heritage with clean contemporary tailoring. (Closed weekends).</p>
+        <div class="mt-3 pt-2.5 border-t border-stone-100 flex items-center justify-between text-xs">
+          <span class="text-stone-500">Area: San Miguel Chapultepec</span>
+          <a href="https://maps.google.com/?q=Yakampot+Salvatierra+45+CDMX" target="_blank" class="text-indigo-600 font-semibold hover:underline">Open Map &rarr;</a>
+        </div>
+      </div>
+
+      <!-- El Palacio de Hierro Polanco -->
+      <div class="bg-white p-4 rounded-2xl border border-stone-200 shadow-sm border-l-4 border-l-indigo-600">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="font-bold text-stone-900 text-sm">El Palacio de Hierro Polanco</h3>
+            <p class="text-xs text-stone-500">Av. Moliere 222, Polanco</p>
+          </div>
+          <span class="text-[10px] bg-stone-100 text-stone-700 px-2 py-0.5 rounded font-semibold">Flagship Department Store</span>
+        </div>
+        <p class="text-xs text-stone-600 mt-2">Known as "El Palacio de los Palacios". The best one-stop location if you need to try a high volume of formal, cocktail, and wedding-guest dresses across diverse brands and sizes.</p>
+        <div class="mt-3 pt-2.5 border-t border-stone-100 flex items-center justify-between text-xs">
+          <span class="text-stone-500">Area: Polanco</span>
+          <a href="https://maps.google.com/?q=Palacio+de+Hierro+Polanco+CDMX" target="_blank" class="text-indigo-600 font-semibold hover:underline">Open Map &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 4: FOOD POOL -->
+    <section id="view-dining" class="hidden tab-content space-y-3.5">
+      <div class="bg-amber-50 border border-amber-200 rounded-2xl p-4 text-xs">
+        <h2 class="font-bold text-amber-900 text-sm">Flexible Restaurant Pool (No Fixed Bookings)</h2>
+        <p class="text-amber-800 mt-1">Evenings are open. Drop into or book any of these favorite spots across neighborhoods whenever you're ready.</p>
+      </div>
+
+      <!-- Los Danzantes -->
+      <div class="bg-white p-4 rounded-2xl border border-stone-200 shadow-sm border-l-4 border-l-amber-600">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="font-bold text-stone-900 text-sm">Los Danzantes</h3>
+            <p class="text-xs text-stone-500">Plaza Jardín Centenario 12, Coyoacán</p>
+          </div>
+          <span class="text-[10px] bg-amber-100 text-amber-800 px-2 py-0.5 rounded font-semibold">Base Favorite</span>
+        </div>
+        <p class="text-xs text-stone-600 mt-2">Directly overlooking the lively plaza in Coyoacán with shaded courtyard tables. Exceptional regional dishes, mole, and artisanal mezcal right by your loft. Ideal for family dinners.</p>
+        <div class="mt-3 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+          <span class="text-stone-500">Vibe: Plaza Courtyard • Mid-Range</span>
+          <a href="https://maps.google.com/?q=Los+Danzantes+Coyoacan+CDMX" target="_blank" class="text-amber-700 font-semibold hover:underline">Open Map &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Contramar -->
+      <div class="bg-white p-4 rounded-2xl border border-stone-200 shadow-sm border-l-4 border-l-amber-600">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="font-bold text-stone-900 text-sm">Contramar</h3>
+            <p class="text-xs text-stone-500">Durango 200, Roma Norte</p>
+          </div>
+          <span class="text-[10px] bg-amber-100 text-amber-800 px-2 py-0.5 rounded font-semibold">Seafood Classic</span>
+        </div>
+        <p class="text-xs text-stone-600 mt-2">Mexico City's legendary seafood lunch spot. Signature tuna tostadas and red-and-green grilled pescado a la talla. (Best for long midday/afternoon meals).</p>
+        <div class="mt-3 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+          <span class="text-stone-500">Vibe: Buzzing Lunch • Mid-Range</span>
+          <a href="https://maps.google.com/?q=Contramar+Durango+200+CDMX" target="_blank" class="text-amber-700 font-semibold hover:underline">Open Map &rarr;</a>
+        </div>
+      </div>
+
+      <!-- El Cardenal -->
+      <div class="bg-white p-4 rounded-2xl border border-stone-200 shadow-sm border-l-4 border-l-amber-600">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="font-bold text-stone-900 text-sm">El Cardenal</h3>
+            <p class="text-xs text-stone-500">Calle de la Palma 23, Centro Histórico</p>
+          </div>
+          <span class="text-[10px] bg-amber-100 text-amber-800 px-2 py-0.5 rounded font-semibold">Heritage Mexican</span>
+        </div>
+        <p class="text-xs text-stone-600 mt-2">A landmark of authentic traditional Mexican cuisine. Handmade tortillas, slow-simmered dishes, and classic hospitality. Superb for a sit-down meal in Centro.</p>
+        <div class="mt-3 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+          <span class="text-stone-500">Vibe: Traditional Sit-down • Mid-Range</span>
+          <a href="https://maps.google.com/?q=El+Cardenal+Calle+de+la+Palma+CDMX" target="_blank" class="text-amber-700 font-semibold hover:underline">Open Map &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Azul Historico -->
+      <div class="bg-white p-4 rounded-2xl border border-stone-200 shadow-sm border-l-4 border-l-amber-600">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="font-bold text-stone-900 text-sm">Azul Histórico</h3>
+            <p class="text-xs text-stone-500">Isabel La Católica 30, Centro Histórico</p>
+          </div>
+          <span class="text-[10px] bg-amber-100 text-amber-800 px-2 py-0.5 rounded font-semibold">Scenic Palace</span>
+        </div>
+        <p class="text-xs text-stone-600 mt-2">Set in the open-air courtyard of a 17th-century palace shaded by laurel trees. Celebrated regional moles, duck buñuelos, and authentic heritage dishes.</p>
+        <div class="mt-3 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+          <span class="text-stone-500">Vibe: Courtyard Ambience • Mid-Range</span>
+          <a href="https://maps.google.com/?q=Azul+Historico+CDMX" target="_blank" class="text-amber-700 font-semibold hover:underline">Open Map &rarr;</a>
+        </div>
+      </div>
+
+      <!-- El Parnita -->
+      <div class="bg-white p-4 rounded-2xl border border-stone-200 shadow-sm border-l-4 border-l-amber-600">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="font-bold text-stone-900 text-sm">El Parnita</h3>
+            <p class="text-xs text-stone-500">Av. Yucatán 84, Roma Norte</p>
+          </div>
+          <span class="text-[10px] bg-amber-100 text-amber-800 px-2 py-0.5 rounded font-semibold">Tacos & Antojos</span>
+        </div>
+        <p class="text-xs text-stone-600 mt-2">Lively, bustling corner taquería serving creative antojos, pork belly tacos, tempura shrimp, and fresh house salsas. Perfect for a casual high-flavor drop-in bite.</p>
+        <div class="mt-3 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+          <span class="text-stone-500">Vibe: Casual & Lively</span>
+          <a href="https://maps.google.com/?q=El+Parnita+Yucatan+CDMX" target="_blank" class="text-amber-700 font-semibold hover:underline">Open Map &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Antolina -->
+      <div class="bg-white p-4 rounded-2xl border border-stone-200 shadow-sm border-l-4 border-l-amber-600">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="font-bold text-stone-900 text-sm">Antolina</h3>
+            <p class="text-xs text-stone-500">Alfonso Reyes 115, Condesa</p>
+          </div>
+          <span class="text-[10px] bg-amber-100 text-amber-800 px-2 py-0.5 rounded font-semibold">Chinampa Produce</span>
+        </div>
+        <p class="text-xs text-stone-600 mt-2">Intimate sidewalk bistro sourcing organic produce straight from Xochimilco chinampas. Stellar plantain molotes, mole negro, and boutique mezcals without tasting-menu prices.</p>
+        <div class="mt-3 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+          <span class="text-stone-500">Vibe: Leafy Sidewalk • Mid-Range</span>
+          <a href="https://maps.google.com/?q=Antolina+Condesa+CDMX" target="_blank" class="text-amber-700 font-semibold hover:underline">Open Map &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Fonda Fina -->
+      <div class="bg-white p-4 rounded-2xl border border-stone-200 shadow-sm border-l-4 border-l-amber-600">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="font-bold text-stone-900 text-sm">Fonda Fina</h3>
+            <p class="text-xs text-stone-500">Medellín 79, Roma Norte</p>
+          </div>
+          <span class="text-[10px] bg-amber-100 text-amber-800 px-2 py-0.5 rounded font-semibold">Elevated Comfort</span>
+        </div>
+        <p class="text-xs text-stone-600 mt-2">Refined homestyle Mexican comfort cooking. Pick your choice of protein and pair it with house moles and warm heirloom corn tortillas. Warm and unpretentious.</p>
+        <div class="mt-3 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+          <span class="text-stone-500">Vibe: Cozy Dining • Mid-Range</span>
+          <a href="https://maps.google.com/?q=Fonda+Fina+Roma+Norte+CDMX" target="_blank" class="text-amber-700 font-semibold hover:underline">Open Map &rarr;</a>
+        </div>
+      </div>
+
+      <!-- El Califa de León -->
+      <div class="bg-white p-4 rounded-2xl border border-stone-200 shadow-sm border-l-4 border-l-amber-600">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="font-bold text-stone-900 text-sm">El Califa de León</h3>
+            <p class="text-xs text-stone-500">Av. Ribera de San Cosme 56, San Rafael</p>
+          </div>
+          <span class="text-[10px] bg-amber-100 text-amber-800 px-2 py-0.5 rounded font-semibold">Legendary Taco Stand</span>
+        </div>
+        <p class="text-xs text-stone-600 mt-2">The historic stand famous for its Gaonera taco—thin, tender beef fillet cooked on a sizzling flat top with fresh lime and salt. Sidewalk counter eating only.</p>
+        <div class="mt-3 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+          <span class="text-stone-500">Vibe: Stand-and-eat Street Food</span>
+          <a href="https://maps.google.com/?q=El+Califa+de+Leon+CDMX" target="_blank" class="text-amber-700 font-semibold hover:underline">Open Map &rarr;</a>
+        </div>
+      </div>
+
+      <!-- El Pescadito / La Pezciosa -->
+      <div class="bg-white p-4 rounded-2xl border border-stone-200 shadow-sm border-l-4 border-l-amber-600">
+        <div class="flex justify-between items-start">
+          <div>
+            <h3 class="font-bold text-stone-900 text-sm">El Pescadito / La Pezciosa</h3>
+            <p class="text-xs text-stone-500">Calle Atlixco 38, Condesa</p>
+          </div>
+          <span class="text-[10px] bg-amber-100 text-amber-800 px-2 py-0.5 rounded font-semibold">Sonora Seafood</span>
+        </div>
+        <p class="text-xs text-stone-600 mt-2">Generous battered fish, shrimp, and cheese-stuffed chile poblano tacos with an expansive self-serve fresh salsa bar. Fast, delicious, and budget-friendly.</p>
+        <div class="mt-3 pt-2 border-t border-stone-100 flex items-center justify-between text-xs">
+          <span class="text-stone-500">Vibe: Quick Casual Tacos</span>
+          <a href="https://maps.google.com/?q=El+Pescadito+Atlixco+Condesa+CDMX" target="_blank" class="text-amber-700 font-semibold hover:underline">Open Map &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    function setView(viewName) {
+      const views = ['timeline', 'table', 'shopping', 'dining'];
+      views.forEach(v => {
+        const sec = document.getElementById('view-' + v);
+        const btn = document.getElementById('btn-' + v);
+        if (v === viewName) {
+          sec.classList.remove('hidden');
+          btn.className = 'flex-1 py-2 text-center rounded-lg transition-all bg-white text-stone-900 shadow-sm font-semibold';
+        } else {
+          sec.classList.add('hidden');
+          btn.className = 'flex-1 py-2 text-center rounded-lg transition-all text-stone-600 hover:text-stone-900 font-normal';
+        }
+      });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
